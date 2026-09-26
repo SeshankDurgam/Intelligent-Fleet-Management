@@ -1,0 +1,14 @@
+{
+    "_thingId": "no.sintef.sct.giot:tellu_gateway",
+    "_policyId": "no.sintef.sct.giot:policy",
+    "_attributes": {
+        "type": "physical_device",
+        "manufacturer": "Raspberry",
+        "platform": "linux/arm/v7",
+        "system_description": "Debian GNU/Linux 12 (bookworm)",
+        "ip_address": "127.0.0.1",
+        "system_version": "12",
+        "system_name": "Debian"
+    },
+    "_features": {}
+}

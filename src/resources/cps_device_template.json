@@ -1,0 +1,65 @@
+{
+  "thingId": "no.sintef.sct.giot:REPLACE_WITH_UNIQUE_DEVICE_ID",
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "physical_device",
+    "manufacturer": "Raspberry",
+    "platform": "linux/arm/v7",
+    "ipAddress": "",
+    "system_description": "OP-TEE image built in ENTRUST",
+    "system_version": "2.0",
+    "system_name": "OP-TEE",
+    "proxiedBy": {
+      "thingId": "",
+      "ipAddress": ""
+    },
+    "proxyFor": {
+      "thingId": "",
+      "ipAddress": ""
+    }
+  },
+  "features": {
+    "cyber": {
+      "properties": {
+        "connectedDevices": [
+          {
+            "deviceId": "no.sintef.sct.giot:kardinero_ecg_master_001",
+            "connectionType": "USB",
+            "macAddress": "00-B0-D0-63-C2-26",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-05-07T08:00:00Z"
+          },
+          {
+            "deviceId": "no.sintef.sct.giot:sensio_care__001",
+            "connectionType": "Bluetooth",
+            "macAddress": "00-B0-D0-63-C2-27",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-05-06T22:45:00Z"
+          },
+          {
+            "deviceId": "no.sintef.sct.giot:axis_q9307_dome_camera_001",
+            "connectionType": "Ethernet",
+            "macAddress": "00-B0-D0-63-C2-28",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-05-06T22:45:00Z"
+          }
+        ]
+      },
+      "desiredProperties": {}
+    },
+    "physical": {
+      "properties": {},
+      "desiredProperties": {}
+    },
+    "social": {
+      "properties": {},
+      "desiredProperties": {}
+    }
+  }
+}

@@ -1,0 +1,43 @@
+# No copyright
+
+services: 
+  
+  fleet-manager:
+    container_name: fleet-manager
+    image: rdautov/ditto-fleet-manager:linux
+    #network_mode: "host"
+    restart: always
+    stdin_open: true
+    ##tty: true
+    #network_mode: host
+    #networks:
+    #  default:
+    #    aliases:
+    #      - fleet-manager
+    ports:
+      - 3000:3000
+    environment:
+      - MQTT_BROKER=mqtt://broker.hivemq.com:1883
+      - DITTO_SERVER=gateway:8080
+
+  ditto-backend:
+    container_name: ditto-backend
+    image: rdautov/ditto-backend:linux
+    network_mode: host
+    #restart: always
+    #network_mode: host
+    #networks:
+    #  default:
+    #    aliases:
+    #      - ditto-backend
+    environment:
+      - MQTT_BROKER=mqtt://broker.hivemq.com:1883
+      - DITTO_SERVER=127.0.0.1:8080
+
+  submanager:
+    container_name: ditto-submanager
+    image: rdautov/ditto-submanager:amd64
+    network_mode: host
+    environment:
+      - MQTT_BROKER_URL=mqtt://broker.hivemq.com:1883
+      - HOST_NAME=fleet-host

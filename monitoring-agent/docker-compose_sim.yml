@@ -1,0 +1,662 @@
+name: fleet
+services:
+   
+  rpm_gateway_sim_001:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_001    
+    hostname: rpm_gateway_sim_001
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.201
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_002:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_002    
+    hostname: rpm_gateway_sim_002
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.202
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_003:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_003    
+    hostname: rpm_gateway_sim_003
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.203
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_004:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_004    
+    hostname: rpm_gateway_sim_004
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.204
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_005:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_005    
+    hostname: rpm_gateway_sim_005
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.205
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_006:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_006    
+    hostname: rpm_gateway_sim_006
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.206
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_007:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_007    
+    hostname: rpm_gateway_sim_007
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.207
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_008:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_008    
+    hostname: rpm_gateway_sim_008
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.208
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_009:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_009    
+    hostname: rpm_gateway_sim_009
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.209
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_010:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_010    
+    hostname: rpm_gateway_sim_010
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.210
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_011:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_011    
+    hostname: rpm_gateway_sim_011
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.211
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_012:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_012    
+    hostname: rpm_gateway_sim_012
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.212
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_013:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_013    
+    hostname: rpm_gateway_sim_013
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.213
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_014:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_014    
+    hostname: rpm_gateway_sim_014
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.214
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_015:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_015   
+    hostname: rpm_gateway_sim_015
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.215
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_016:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_016    
+    hostname: rpm_gateway_sim_016
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.216
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_017:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_017    
+    hostname: rpm_gateway_sim_017
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.217
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_018:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_018    
+    hostname: rpm_gateway_sim_018
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.218
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_019:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_019    
+    hostname: rpm_gateway_sim_019
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.219
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_020:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_020    
+    hostname: rpm_gateway_sim_020
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.220
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_021:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_021    
+    hostname: rpm_gateway_sim_021
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.221
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_022:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_022    
+    hostname: rpm_gateway_sim_022
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.222
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_023:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_023    
+    hostname: rpm_gateway_sim_023
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.223
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_024:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_024 
+    hostname: rpm_gateway_sim_024
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.224
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_025:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_025    
+    hostname: rpm_gateway_sim_025
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.225
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_026:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_026    
+    hostname: rpm_gateway_sim_026
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.226
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_027:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_027    
+    hostname: rpm_gateway_sim_027
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.227
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_028:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_028    
+    hostname: rpm_gateway_sim_028
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.228
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_029:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_029  
+    hostname: rpm_gateway_sim_029
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.229
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs
+
+  rpm_gateway_sim_030:
+    image: rdautov/ditto-monitoring-agent:0.3
+    container_name: rpm_gateway_sim_030    
+    hostname: rpm_gateway_sim_030
+    user: telegraf:115
+    #user: root
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro 
+      - /:/hostfs:ro
+    restart: unless-stopped
+    environment:
+      - IP_ADDRESS=192.168.35.230
+      - SYSTEM_VERSION=11
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 11 (bullseye)
+      - HOST_ETC=/hostfs/etc 
+      - HOST_PROC=/hostfs/proc 
+      - HOST_SYS=/hostfs/sys 
+      - HOST_VAR=/hostfs/var 
+      - HOST_RUN=/hostfs/run 
+      - HOST_MOUNT_PREFIX=/hostfs

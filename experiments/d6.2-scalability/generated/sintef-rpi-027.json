@@ -1,0 +1,152 @@
+{
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "virtual_device",
+    "manufacturer": "Raspberry",
+    "platform": "linux/arm/v7",
+    "ipAddress": "192.168.32.27",
+    "system_description": "Debian GNU/Linux 11 (bullseye)",
+    "system_version": "11",
+    "system_name": "Debian",
+    "proxiedBy": {
+      "thingId": "",
+      "ipAddress": ""
+    },
+    "proxyFor": {
+      "thingId": "",
+      "ipAddress": ""
+    },
+    "ip_address": "192.168.32.5"
+  },
+  "features": {
+    "cyber": {
+      "id": "cyber",
+      "properties": {
+        "connectedDevices": [
+          {
+            "deviceId": "no.sintef.sct.giot:kardinero_ecg_master_001",
+            "connectionType": "USB",
+            "macAddress": "00-B0-D0-63-C2-26",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-11-21T14:55:38Z"
+          },
+          {
+            "deviceId": "no.sintef.sct.giot:sensio_care__001",
+            "connectionType": "Bluetooth",
+            "macAddress": "00-B0-D0-63-C2-27",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-11-21T15:00:38Z"
+          },
+          {
+            "deviceId": "no.sintef.sct.giot:axis_q9307_dome_camera_001",
+            "connectionType": "Ethernet",
+            "macAddress": "00-B0-D0-63-C2-28",
+            "enrolled": true,
+            "paired": true,
+            "bonded": true,
+            "lastSeen": "2025-11-21T14:14:38Z"
+          }
+        ],
+        "disk": {
+          "free": 22399033344,
+          "inodes_free": 1742217,
+          "inodes_total": 1925760,
+          "inodes_used": 183543,
+          "total": 31069143040,
+          "used": 7658749611,
+          "used_percent": 24.650663,
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        },
+        "memory": {
+          "high_free": 0,
+          "high_total": 0,
+          "huge_page_size": 0,
+          "huge_pages_free": 0,
+          "huge_pages_total": 0,
+          "inactive": 55545856,
+          "low_free": 0,
+          "low_total": 0,
+          "mapped": 321257472,
+          "page_tables": 4530176,
+          "shared": 4866048,
+          "slab": 65302528,
+          "sreclaimable": 37060608,
+          "sunreclaim": 28241920,
+          "swap_cached": 0,
+          "swap_free": 104853504,
+          "swap_total": 104853504,
+          "total": 953802752,
+          "used": 268957524,
+          "used_percent": 28.198443,
+          "vmalloc_chunk": 0,
+          "vmalloc_total": 265885319168,
+          "vmalloc_used": 13508608,
+          "write_back": 0,
+          "write_back_tmp": 0,
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        },
+        "cpu": {
+          "usage_guest": 0,
+          "usage_guest_nice": 0,
+          "usage_idle": 97.351951,
+          "usage_iowait": 0.013031013812871778,
+          "usage_irq": 0,
+          "usage_nice": 0,
+          "usage_softirq": 0.1172791243158676,
+          "usage_steal": 0,
+          "usage_system": 1.265197,
+          "usage_user": 0.910283,
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        },
+        "trustAgent": {
+          "container_image": "rdautov/trust-agent",
+          "container_status": "exited",
+          "container_version": "0.1",
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        },
+        "docker": {
+          "engine_host": "sintef-rpi-001",
+          "server_version": "28.5.1",
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        },
+        "internet_speed": {
+          "ip_address": "192.168.32.27",
+          "download": 44.692601,
+          "jitter": 3.310788,
+          "latency": 24.873,
+          "location": "Oslo",
+          "upload": 30.843806,
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        }
+      },
+      "desiredProperties": {}
+    },
+    "physical": {
+      "id": "physical",
+      "properties": {
+        "temp": {
+          "sensor": "cpu_thermal",
+          "temp": 43.013,
+          "_collected_time": "21/11/2025, 15:02:38",
+          "_received_time": "21/11/2025, 15:02:40"
+        }
+      },
+      "desiredProperties": {}
+    },
+    "social": {
+      "id": "social",
+      "properties": {},
+      "desiredProperties": {}
+    }
+  }
+}

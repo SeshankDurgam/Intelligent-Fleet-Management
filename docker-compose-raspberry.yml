@@ -1,0 +1,34 @@
+services:
+  submanager:
+    image: rdautov/ditto-submanager:arm64
+    container_name: ditto-submanager
+    restart: always
+    network_mode: host
+    environment:
+      - MQTT_BROKER_URL=mqtt://test.mosquitto.org:1883
+      - HOST_NAME=raspberrypi
+
+  monitoring-agent:
+    image: rdautov/ditto-monitoring-agent:arm64
+    container_name: ditto-monitoring-agent
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    restart: always
+    depends_on:
+      submanager:
+        condition: service_started
+    network_mode: host
+    user: root
+    environment:
+      - IP_ADDRESS=127.0.0.1
+      - MQTT_BROKER=mqtt://test.mosquitto.org:1883
+      - SYSTEM_VERSION=12
+      - SYSTEM_NAME=Debian
+      - SYSTEM_DESCRIPTION=Debian GNU/Linux 12 (bookworm)
+      - HOST_ETC=/hostfs/etc
+      - HOST_PROC=/hostfs/proc
+      - HOST_SYS=/hostfs/sys
+      - HOST_VAR=/hostfs/var
+      - HOST_RUN=/hostfs/run
+      - HOST_MOUNT_PREFIX=/hostfs

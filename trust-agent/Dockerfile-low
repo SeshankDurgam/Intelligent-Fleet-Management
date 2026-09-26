@@ -1,0 +1,5 @@
+FROM python:slim
+
+ADD trust-agent-low.py /
+
+ENTRYPOINT [ "python", "-u", "./trust-agent-low.py" ]

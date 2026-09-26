@@ -1,0 +1,296 @@
+{
+  "declaration": { "attributes": { "version": "1.0", "encoding": "UTF-8" } },
+  "elements": [
+    {
+      "type": "element",
+      "name": "mspl",
+      "elements": [
+        {
+          "type": "element",
+          "name": "name",
+          "elements": [
+            {
+              "type": "text",
+              "text": "mspl_fc551117-b12d-41e3-8169-2740c80e4951"
+            }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "threatid",
+          "elements": [
+            { "type": "text", "text": "64ffa996-fef5-47f2-9f42-c72462f8bf10" }
+          ]
+        },
+        {
+          "type": "element",
+          "name": "type",
+          "elements": [{ "type": "text", "text": "software-mspl-type" }]
+        },
+        {
+          "type": "element",
+          "name": "configuration",
+          "elements": [
+            {
+              "type": "element",
+              "name": "capability",
+              "elements": [{ "type": "text", "text": "software-protection" }]
+            },
+            {
+              "type": "element",
+              "name": "rule-set-configuration",
+              "elements": [
+                {
+                  "type": "element",
+                  "name": "name",
+                  "elements": [
+                    {
+                      "type": "text",
+                      "text": "mspl_set_56d3ec6e-5891-4ca2-a700-643b76503581"
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "configuration-rule",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "name",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Rule_503be6e8-a4fd-4afb-aeaf-fed481044131"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "isCNF",
+                      "elements": [{ "type": "text", "text": "false" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "external-data",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "priority",
+                          "elements": [{ "type": "text", "text": "500" }]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "configuration-action",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "software-protection-action",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "software-protection-type",
+                              "elements": [{ "type": "text", "text": "UPDATE" }]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fixed-version",
+                              "elements": [{ "type": "text", "text": "4.0.2" }]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fix-url",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "https://software.cisco.com/download/home/286325414/type/286325316/release/4.0.2?catid=268438162"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "configuration-condition",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "software-configuration-condition",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "software-identification-condition",
+                              "elements": [
+                                {
+                                  "type": "element",
+                                  "name": "software-name",
+                                  "elements": [
+                                    {
+                                      "type": "text",
+                                      "text": "Cyber Vision Software"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "software-version",
+                                  "elements": [
+                                    { "type": "text", "text": "<=3.2" }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "software-version",
+                                  "elements": [
+                                    { "type": "text", "text": "4.0" }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "element",
+                  "name": "configuration-rule",
+                  "elements": [
+                    {
+                      "type": "element",
+                      "name": "name",
+                      "elements": [
+                        {
+                          "type": "text",
+                          "text": "Rule_61a19faa-820a-4d0a-a5ca-337d3c72a7bf"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "isCNF",
+                      "elements": [{ "type": "text", "text": "false" }]
+                    },
+                    {
+                      "type": "element",
+                      "name": "external-data",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "priority",
+                          "elements": [{ "type": "text", "text": "500" }]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "configuration-action",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "software-protection-action",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "software-protection-type",
+                              "elements": [{ "type": "text", "text": "UPDATE" }]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fixed-version",
+                              "elements": [{ "type": "text", "text": "2.9.19" }]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fixed-version",
+                              "elements": [
+                                { "type": "text", "text": "3.1.11.0" }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fix-url",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "https://www.snort.org/downloads/snort/snort-2.9.20-1.f35.x86_64.rpm"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fix-url",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "https://www.snort.org/downloads/snort/snort-openappid-2.9.20-1.f35.x86_64.rpm"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "element",
+                              "name": "software-fix-url",
+                              "elements": [
+                                {
+                                  "type": "text",
+                                  "text": "https://www.snort.org/downloads/snort/snort-2.9.20-1.centos.x86_64.rpm"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "element",
+                      "name": "configuration-condition",
+                      "elements": [
+                        {
+                          "type": "element",
+                          "name": "software-configuration-condition",
+                          "elements": [
+                            {
+                              "type": "element",
+                              "name": "software-identification-condition",
+                              "elements": [
+                                {
+                                  "type": "element",
+                                  "name": "software-name",
+                                  "elements": [
+                                    { "type": "text", "text": "Snort Software" }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "software-version",
+                                  "elements": [
+                                    { "type": "text", "text": "2.x" }
+                                  ]
+                                },
+                                {
+                                  "type": "element",
+                                  "name": "software-version",
+                                  "elements": [
+                                    { "type": "text", "text": "3.x" }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

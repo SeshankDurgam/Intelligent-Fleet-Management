@@ -1,0 +1,27 @@
+services:
+  mosquitto:
+    image: eclipse-mosquitto
+    hostname: mosquitto
+    container_name: mosquitto
+    restart: unless-stopped
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      #- ./mosquitto:/etc/mosquitto
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+  
+  #telegraf:
+  #  image: rdautov/ditto-monitoring-agent:arm64
+  #  container_name: ditto-monitoring-agent    
+  #  volumes:
+  #    - /var/run/docker.sock:/var/run/docker.sock
+  #  restart: always
+  #  depends_on:
+  #    - mosquitto
+  #  networks:
+  #    - iot
+  #  user: root
+
+#networks:
+#  iot:

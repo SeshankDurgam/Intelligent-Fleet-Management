@@ -1,0 +1,417 @@
+{
+  "devices": [
+    {
+      "thingId": "no.sintef.sct.giot:SINTEF9977",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "x86-64",
+        "host": "localhost",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "docker_engine",
+            "port": "2375"
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:raspberrypi_1",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "arm64",
+        "host": "192.168.32.2",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "docker_engine",
+            "port": "2375"
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:raspberrypi_1_ssh",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "arm64",
+        "host": "192.168.32.2",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "ssh",
+            "username": "pi",
+            "password": "raspberry",
+            "port": "22"
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:mockupdevice",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "",
+        "host": "mockup",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "mock",
+            "port": ""
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:tellu_gw1",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "armv7",
+        "host": "192.168.32.5",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "docker_engine",
+            "port": "2375"
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:tellu_axis_cam1",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "device",
+        "arch": "",
+        "host": "192.168.32.4",
+        "info": ""
+      },
+      "features": {
+        "execEnv": {
+          "properties": {
+            "name": "axis_cam_api",
+            "port": "",
+            "username": "root"
+          }
+        },
+        "agent": {
+          "properties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          },
+          "desiredProperties": {
+            "agent": "",
+            "status": "",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "image": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        },
+        "meta": {
+          "properties": {
+            "latestState": "",
+            "lastOperation": "",
+            "lastTried": "",
+            "lastSeen": "",
+            "latestFailMessage": ""
+          }
+        }
+      }
+    }
+  ],
+  "agents": [
+    {
+      "thingId": "no.sintef.sct.giot:ta_docker_amd64",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "",
+        "localFile": "ext/trust-agent-image.tar.gz",
+        "remoteFile": "",
+        "developer": "",
+        "signature": "",
+        "image": "songhui/trust-agent:latest",
+        "cmd": "",
+        "cwd": ""
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:ta_docker_arm64",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "",
+        "localFile": "ext/ta-arm64.tar.gz",
+        "remoteFile": "",
+        "developer": "",
+        "signature": "",
+        "image": "songhui/trust-agent:arm64",
+        "cmd": "",
+        "cwd": ""
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:nonta_ssh",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "",
+        "localFile": "ext/hello/hello",
+        "remoteFile": "hello",
+        "developer": "",
+        "signature": "",
+        "image": "",
+        "cmd": "./hello",
+        "cwd": "/home/pi"
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:mockup_agent",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "",
+        "localFile": "",
+        "remoteFile": "mockupAgent",
+        "developer": "",
+        "signature": "",
+        "image": "",
+        "cmd": "",
+        "cwd": ""
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:ta_docker_armv7",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "https://eratblob.blob.core.windows.net/newcontainer/ta_armv7.tar.gz",
+        "localFile": "",
+        "remoteFile": "",
+        "developer": "songhui",
+        "signature": "",
+        "image": "erat/ta-sample:armv7",
+        "cmd": "",
+        "cwd": ""
+      }
+    },
+    {
+      "thingId": "no.sintef.sct.giot:ta_axis_hb",
+      "policyId": "no.sintef.sct.giot:policy",
+      "attributes": {
+        "type": "software",
+        "url": "https://eratblob.blob.core.windows.net/newcontainer/tahb_1_0_0_armv7hf.eap",
+        "localFile": "./ext/tahb_1_0_0_armv7hf.eap",
+        "remoteFile": "",
+        "developer": "songhui",
+        "signature": "",
+        "image": "",
+        "cmd": "",
+        "cwd": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+[
+  {
+    "_thingId": "no.sintef.sct.giot:rpi-era-1",
+    "_policyId": "no.sintef.sct.giot:policy",
+    "_attributes": {
+      "type": "physical_device",
+      "manufacturer": "Raspberry",
+      "platform": "linux/arm/v7",
+      "system_description": "Raspbian GNU/Linux 11 (bullseye)",
+      "ip_address": "192.168.32.2",
+      "system_version": "11",
+      "system_name": "Raspbian"
+    },
+    "_features": {
+      "cyber": {
+        "_id": "cyber",
+        "_properties": {
+          "memory": {
+            "high_free": 0,
+            "high_total": 0,
+            "huge_page_size": 0,
+            "huge_pages_free": 0,
+            "huge_pages_total": 0,
+            "inactive": 262045696,
+            "low_free": 0,
+            "low_total": 0,
+            "mapped": 216555520,
+            "page_tables": 2678784,
+            "shared": 1101824,
+            "slab": 34238464,
+            "sreclaimable": 15761408,
+            "sunreclaim": 18477056,
+            "swap_cached": 0,
+            "swap_free": 104853504,
+            "swap_total": 104853504,
+            "total": 966750208,
+            "used": 127356928,
+            "used_percent": 13.173716120886525,
+            "vmalloc_chunk": 0,
+            "vmalloc_total": 1140850688,
+            "vmalloc_used": 8605696,
+            "write_back": 0,
+            "write_back_tmp": 0,
+            "_collected_time": "20/11/2023, 14:05:00",
+            "_received_time": "20/11/2023, 14:05:07"
+          },
+          "disk": {
+            "free": 26812911616,
+            "inodes_free": 1808012,
+            "inodes_total": 1880448,
+            "inodes_used": 72436,
+            "total": 31120875520,
+            "used": 3010592768,
+            "used_percent": 10.094698226058075,
+            "_collected_time": "20/11/2023, 14:05:00",
+            "_received_time": "20/11/2023, 14:05:07"
+          },
+          "trustAgent": {},
+          "docker": {
+            "engine_host": "rpi-era-1",
+            "server_version": "24.0.7",
+            "_collected_time": "20/11/2023, 14:05:00",
+            "_received_time": "20/11/2023, 14:05:07"
+          },
+          "cpu": {
+            "usage_guest": 0,
+            "usage_guest_nice": 0,
+            "usage_idle": 99.39515288032341,
+            "usage_iowait": 0.016685437784173283,
+            "usage_irq": 0,
+            "usage_nice": 0,
+            "usage_softirq": 0.016685437784173283,
+            "usage_steal": 0,
+            "usage_system": 0.2544529262086478,
+            "usage_user": 0.31702331789930127,
+            "_collected_time": "20/11/2023, 14:05:00",
+            "_received_time": "20/11/2023, 14:05:07"
+          },
+          "internet_speed": {
+            "ip_address": "192.168.32.2",
+            "download": 68.6479,
+            "jitter": 2.749052,
+            "latency": 65.594956,
+            "location": "Oslo",
+            "upload": 31.2626,
+            "_collected_time": "20/11/2023, 13:40:25",
+            "_received_time": "20/11/2023, 13:40:27"
+          }
+        },
+        "_desiredProperties": { "trustAgent": {} }
+      },
+      "physical": {
+        "_id": "physical",
+        "_properties": {
+          "temp": {
+            "sensor": "cpu_thermal",
+            "temp": 47.236,
+            "_collected_time": "20/11/2023, 14:05:00",
+            "_received_time": "20/11/2023, 14:05:07"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+    }
+  },
+  {
+    "_thingId": "no.sintef.sct.giot:tellu-rpm-gateway-001",
+    "_policyId": "no.sintef.sct.giot:policy",
+    "_attributes": {
+      "type": "physical_device",
+      "manufacturer": "Raspberry",
+      "platform": "linux/arm/v7",
+      "system_name": "Debian",
+      "system_version": "11",
+      "ip_address": "192.168.32.5",
+      "system_description": "Debian GNU/Linux 11 (bullseye)"
+    },
+    "_features": {
+      "cyber": {
+        "_id": "cyber",
+        "_properties": {
+          "memory": {
+            "high_free": 0,
+            "high_total": 0,
+            "huge_page_size": 0,
+            "huge_pages_free": 0,
+            "huge_pages_total": 0,
+            "inactive": 702734336,
+            "low_free": 0,
+            "low_total": 0,
+            "mapped": 326287360,
+            "page_tables": 7073792,
+            "shared": 4296704,
+            "slab": 60297216,
+            "sreclaimable": 29851648,
+            "sunreclaim": 30445568,
+            "swap_cached": 16384,
+            "swap_free": 103542784,
+            "swap_total": 104853504,
+            "total": 953802752,
+            "used": 331571200,
+            "used_percent": 34.763078561551474,
+            "vmalloc_chunk": 0,
+            "vmalloc_total": 265885319168,
+            "vmalloc_used": 14544896,
+            "write_back": 0,
+            "write_back_tmp": 0,
+            "_collected_time": "24/11/2023, 15:14:00",
+            "_received_time": "24/11/2023, 15:14:06"
+          },
+          "disk": {
+            "free": 24223150080,
+            "inodes_free": 1779092,
+            "inodes_total": 1925760,
+            "inodes_used": 146668,
+            "total": 31069143040,
+            "used": 5522993152,
+            "used_percent": 18.5670898876683,
+            "_collected_time": "24/11/2023, 15:14:00",
+            "_received_time": "24/11/2023, 15:14:06"
+          },
+          "trustAgent": {},
+          "docker": {
+            "engine_host": "tellu-rpm-gateway-001",
+            "server_version": "24.0.7",
+            "_collected_time": "24/11/2023, 15:14:00",
+            "_received_time": "24/11/2023, 15:14:06"
+          },
+          "cpu": {
+            "usage_guest": 0,
+            "usage_guest_nice": 0,
+            "usage_idle": 99.27083333333321,
+            "usage_iowait": 0.013020833333333795,
+            "usage_irq": 0,
+            "usage_nice": 0.0043402777777777676,
+            "usage_softirq": 0.0781249999999997,
+            "usage_steal": 0,
+            "usage_system": 0.3732638888888878,
+            "usage_user": 0.2604166666666636,
+            "_collected_time": "24/11/2023, 15:14:00",
+            "_received_time": "24/11/2023, 15:14:06"
+          },
+          "internet_speed": {
+            "ip_address": "192.168.32.5",
+            "download": 38.8316,
+            "jitter": 2.522622,
+            "latency": 47.752217,
+            "location": "Oslo",
+            "upload": 43.676,
+            "_collected_time": "24/11/2023, 15:10:25",
+            "_received_time": "24/11/2023, 15:10:26"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "physical": {
+        "_id": "physical",
+        "_properties": {
+          "temp": {
+            "sensor": "cpu_thermal",
+            "temp": 39.704,
+            "_collected_time": "24/11/2023, 15:14:00",
+            "_received_time": "24/11/2023, 15:14:06"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+    }
+  },
+  {
+    "_thingId": "no.sintef.sct.giot:tellu-rpm-gateway-002",
+    "_policyId": "no.sintef.sct.giot:policy",
+    "_attributes": {
+      "type": "physical_device",
+      "manufacturer": "Raspberry",
+      "platform": "linux/arm/v7",
+      "ip_address": "192.168.32.6",
+      "system_version": "11",
+      "system_name": "Raspbian",
+      "system_description": "Raspbian GNU/Linux 11 (bullseye)"
+    },
+    "_features": {
+      "cyber": {
+        "_id": "cyber",
+        "_properties": {
+          "internet_speed": {
+            "ip_address": "192.168.32.6",
+            "download": 27.3487,
+            "jitter": 16.037559,
+            "latency": 92.774617,
+            "location": "Oslo",
+            "upload": 41.8671,
+            "_collected_time": "24/11/2023, 15:00:29",
+            "_received_time": "24/11/2023, 15:00:38"
+          },
+          "memory": {
+            "high_free": 0,
+            "high_total": 0,
+            "huge_page_size": 0,
+            "huge_pages_free": 0,
+            "huge_pages_total": 0,
+            "inactive": 348282880,
+            "low_free": 0,
+            "low_total": 0,
+            "mapped": 224649216,
+            "page_tables": 2191360,
+            "shared": 1146880,
+            "slab": 32497664,
+            "sreclaimable": 14315520,
+            "sunreclaim": 18182144,
+            "swap_cached": 0,
+            "swap_free": 104853504,
+            "swap_total": 104853504,
+            "total": 966762496,
+            "used": 111013888,
+            "used_percent": 11.483056951352816,
+            "vmalloc_chunk": 0,
+            "vmalloc_total": 1140850688,
+            "vmalloc_used": 8704000,
+            "write_back": 0,
+            "write_back_tmp": 0,
+            "_collected_time": "24/11/2023, 15:05:00",
+            "_received_time": "24/11/2023, 15:05:08"
+          },
+          "disk": {
+            "free": 26283454464,
+            "inodes_free": 1803385,
+            "inodes_total": 1880448,
+            "inodes_used": 77063,
+            "total": 31120875520,
+            "used": 3540049920,
+            "used_percent": 11.869999831070153,
+            "_collected_time": "24/11/2023, 15:05:00",
+            "_received_time": "24/11/2023, 15:05:08"
+          },
+          "cpu": {
+            "usage_guest": 0,
+            "usage_guest_nice": 0,
+            "usage_idle": 99.72428774333693,
+            "usage_iowait": 0.012532375302864721,
+            "usage_irq": 0,
+            "usage_nice": 0,
+            "usage_softirq": 0.004177458434288488,
+            "usage_steal": 0,
+            "usage_system": 0.1336786698972346,
+            "usage_user": 0.12532375302865612,
+            "_collected_time": "24/11/2023, 15:05:00",
+            "_received_time": "24/11/2023, 15:05:08"
+          },
+          "trustAgent": {},
+          "docker": {
+            "engine_host": "tellu-rpm-gateway-002",
+            "server_version": "24.0.7",
+            "_collected_time": "24/11/2023, 15:05:00",
+            "_received_time": "24/11/2023, 15:05:08"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "physical": {
+        "_id": "physical",
+        "_properties": {
+          "temp": {
+            "sensor": "cpu_thermal",
+            "temp": 38.628,
+            "_collected_time": "24/11/2023, 15:05:00",
+            "_received_time": "24/11/2023, 15:05:08"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+    }
+  },
+  {
+    "_thingId": "no.sintef.sct.giot:rpm_gateway_sim_001",
+    "_policyId": "no.sintef.sct.giot:policy",
+    "_attributes": {
+      "type": "virtual_device",
+      "manufacturer": "Raspberry",
+      "platform": "linux/arm/v7",
+      "ip_address": "192.168.35.201",
+      "system_name": "Debian",
+      "system_version": "11",
+      "system_description": "Debian GNU/Linux 11 (bullseye)"
+    },
+    "_features": {
+      "cyber": {
+        "_id": "cyber",
+        "_properties": {
+          "disk": {
+            "free": 247167795200,
+            "inodes_free": 16670844,
+            "inodes_total": 16777216,
+            "inodes_used": 106372,
+            "total": 269490393088,
+            "used": 8561926144,
+            "used_percent": 3.3480371772989,
+            "_collected_time": "15/11/2023, 17:09:00",
+            "_received_time": "15/11/2023, 17:09:04"
+          },
+          "memory": {
+            "high_free": 0,
+            "high_total": 0,
+            "huge_page_size": 2097152,
+            "huge_pages_free": 0,
+            "huge_pages_total": 0,
+            "inactive": 9116082176,
+            "low_free": 0,
+            "low_total": 0,
+            "mapped": 565948416,
+            "page_tables": 43810816,
+            "shared": 15884288,
+            "slab": 280072192,
+            "sreclaimable": 155389952,
+            "sunreclaim": 124682240,
+            "swap_cached": 13561856,
+            "swap_free": 7430111232,
+            "swap_total": 7516192768,
+            "total": 26740953088,
+            "used": 8592003072,
+            "used_percent": 32.13050426334902,
+            "vmalloc_chunk": 0,
+            "vmalloc_total": 35184372087808,
+            "vmalloc_used": 65941504,
+            "write_back": 0,
+            "write_back_tmp": 0,
+            "_collected_time": "15/11/2023, 17:09:00",
+            "_received_time": "15/11/2023, 17:09:04"
+          },
+          "trustAgent": {
+            "container_image": "rdautov/trust-agent",
+            "container_status": "exited",
+            "container_version": "0.1",
+            "_collected_time": "15/11/2023, 17:09:01",
+            "_received_time": "15/11/2023, 17:09:04"
+          },
+          "docker": {
+            "engine_host": "docker-desktop",
+            "server_version": "24.0.2",
+            "_collected_time": "15/11/2023, 17:09:00",
+            "_received_time": "15/11/2023, 17:09:04"
+          },
+          "packages": {
+            "packages": [
+              { "name": "adduser", "version": "3.134" },
+              { "name": "apt", "version": "2.6.1" },
+              { "name": "base-files", "version": "12.4+deb12u2" },
+              { "name": "base-passwd", "version": "3.6.1" },
+              { "name": "bash", "version": "5.2.15-2+b2" },
+              { "name": "bsdutils", "version": "1:2.38.1-5+b1" },
+              { "name": "ca-certificates", "version": "20230311" },
+              { "name": "coreutils", "version": "9.1-1" },
+              { "name": "curl", "version": "7.88.1-10+deb12u4" },
+              { "name": "dash", "version": "0.5.12-2" },
+              { "name": "debconf", "version": "1.5.82" },
+              { "name": "debian-archive-keyring", "version": "2023.3+deb12u1" },
+              { "name": "debianutils", "version": "5.7-0.5~deb12u1" },
+              { "name": "diffutils", "version": "1:3.8-4" },
+              { "name": "dirmngr", "version": "2.2.40-1.1" },
+              { "name": "dpkg", "version": "1.21.22" },
+              { "name": "e2fsprogs", "version": "1.47.0-2" },
+              { "name": "findutils", "version": "4.9.0-4" },
+              { "name": "gcc-12-base:armhf", "version": "12.2.0-14" },
+              { "name": "gnupg", "version": "2.2.40-1.1" },
+              { "name": "gnupg-l10n", "version": "2.2.40-1.1" },
+              { "name": "gnupg-utils", "version": "2.2.40-1.1" },
+              { "name": "gpg", "version": "2.2.40-1.1" },
+              { "name": "gpg-agent", "version": "2.2.40-1.1" },
+              { "name": "gpg-wks-client", "version": "2.2.40-1.1" },
+              { "name": "gpg-wks-server", "version": "2.2.40-1.1" },
+              { "name": "gpgconf", "version": "2.2.40-1.1" },
+              { "name": "gpgsm", "version": "2.2.40-1.1" },
+              { "name": "gpgv", "version": "2.2.40-1.1" },
+              { "name": "grep", "version": "3.8-5" },
+              { "name": "gzip", "version": "1.12-1" },
+              { "name": "hostname", "version": "3.23+nmu1" },
+              { "name": "init-system-helpers", "version": "1.65.2" },
+              { "name": "iputils-ping", "version": "3:20221126-1" },
+              { "name": "jq", "version": "1.6-2.1" },
+              { "name": "libacl1:armhf", "version": "2.3.1-3" },
+              { "name": "libapt-pkg6.0:armhf", "version": "2.6.1" },
+              { "name": "libassuan0:armhf", "version": "2.5.5-5" },
+              { "name": "libattr1:armhf", "version": "1:2.5.1-4" },
+              { "name": "libaudit-common", "version": "1:3.0.9-1" },
+              { "name": "libaudit1:armhf", "version": "1:3.0.9-1" },
+              { "name": "libblkid1:armhf", "version": "2.38.1-5+b1" },
+              { "name": "libbrotli1:armhf", "version": "1.0.9-2+b6" },
+              { "name": "libbz2-1.0:armhf", "version": "1.0.8-5+b1" },
+              { "name": "libc-bin", "version": "2.36-9+deb12u3" },
+              { "name": "libc6:armhf", "version": "2.36-9+deb12u3" },
+              { "name": "libcap-ng0:armhf", "version": "0.8.3-1+b3" },
+              { "name": "libcap2:armhf", "version": "1:2.66-4" },
+              { "name": "libcap2-bin", "version": "1:2.66-4" },
+              { "name": "libcom-err2:armhf", "version": "1.47.0-2" },
+              { "name": "libcrypt1:armhf", "version": "1:4.4.33-2" },
+              { "name": "libcurl4:armhf", "version": "7.88.1-10+deb12u4" },
+              { "name": "libdb5.3:armhf", "version": "5.3.28+dfsg2-1" },
+              { "name": "libdebconfclient0:armhf", "version": "0.270" },
+              { "name": "libext2fs2:armhf", "version": "1.47.0-2" },
+              { "name": "libffi8:armhf", "version": "3.4.4-1" },
+              { "name": "libgcc-s1:armhf", "version": "12.2.0-14" },
+              { "name": "libgcrypt20:armhf", "version": "1.10.1-3" },
+              { "name": "libgdbm-compat4:armhf", "version": "1.23-3" },
+              { "name": "libgdbm6:armhf", "version": "1.23-3" },
+              { "name": "libgmp10:armhf", "version": "2:6.2.1+dfsg1-1.1" },
+              { "name": "libgnutls30:armhf", "version": "3.7.9-2" },
+              { "name": "libgpg-error0:armhf", "version": "1.46-1" },
+              {
+                "name": "libgssapi-krb5-2:armhf",
+                "version": "1.20.1-2+deb12u1"
+              },
+              { "name": "libhogweed6:armhf", "version": "3.8.1-2" },
+              { "name": "libidn2-0:armhf", "version": "2.3.3-1+b1" },
+              { "name": "libjq1:armhf", "version": "1.6-2.1" },
+              { "name": "libk5crypto3:armhf", "version": "1.20.1-2+deb12u1" },
+              { "name": "libkeyutils1:armhf", "version": "1.6.3-2" },
+              { "name": "libkrb5-3:armhf", "version": "1.20.1-2+deb12u1" },
+              {
+                "name": "libkrb5support0:armhf",
+                "version": "1.20.1-2+deb12u1"
+              },
+              { "name": "libksba8:armhf", "version": "1.6.3-2" },
+              { "name": "libldap-2.5-0:armhf", "version": "2.5.13+dfsg-5" },
+              { "name": "liblz4-1:armhf", "version": "1.9.4-1" },
+              { "name": "liblzma5:armhf", "version": "5.4.1-0.2" },
+              { "name": "libmd0:armhf", "version": "1.0.4-2" },
+              { "name": "libmount1:armhf", "version": "2.38.1-5+b1" },
+              { "name": "libncursesw6:armhf", "version": "6.4-4" },
+              { "name": "libnettle8:armhf", "version": "3.8.1-2" },
+              { "name": "libnghttp2-14:armhf", "version": "1.52.0-1" },
+              { "name": "libnpth0:armhf", "version": "1.6-3" },
+              { "name": "libnsl2:armhf", "version": "1.3.0-2" },
+              { "name": "libonig5:armhf", "version": "6.9.8-1" },
+              { "name": "libp11-kit0:armhf", "version": "0.24.1-2" },
+              { "name": "libpam-modules:armhf", "version": "1.5.2-6+deb12u1" },
+              { "name": "libpam-modules-bin", "version": "1.5.2-6+deb12u1" },
+              { "name": "libpam-runtime", "version": "1.5.2-6+deb12u1" },
+              { "name": "libpam0g:armhf", "version": "1.5.2-6+deb12u1" },
+              { "name": "libpci3:armhf", "version": "1:3.9.0-4" },
+              { "name": "libpcre2-8-0:armhf", "version": "10.42-1" },
+              { "name": "libperl5.36:armhf", "version": "5.36.0-7" },
+              { "name": "libproc2-0:armhf", "version": "2:4.0.2-3" },
+              { "name": "libpsl5:armhf", "version": "0.21.2-1" },
+              { "name": "libreadline8:armhf", "version": "8.2-1.3" },
+              {
+                "name": "librtmp1:armhf",
+                "version": "2.4+20151223.gitfa8646d.1-2+b2"
+              },
+              { "name": "libsasl2-2:armhf", "version": "2.1.28+dfsg-10" },
+              {
+                "name": "libsasl2-modules-db:armhf",
+                "version": "2.1.28+dfsg-10"
+              },
+              { "name": "libseccomp2:armhf", "version": "2.5.4-1+b3" },
+              { "name": "libselinux1:armhf", "version": "3.4-1+b6" },
+              { "name": "libsemanage-common", "version": "3.4-1" },
+              { "name": "libsemanage2:armhf", "version": "3.4-1+b5" },
+              { "name": "libsensors-config", "version": "1:3.6.0-7.1" },
+              { "name": "libsensors5:armhf", "version": "1:3.6.0-7.1" },
+              { "name": "libsepol2:armhf", "version": "3.4-2.1" },
+              { "name": "libsmartcols1:armhf", "version": "2.38.1-5+b1" },
+              { "name": "libsnmp-base", "version": "5.9.3+dfsg-2" },
+              { "name": "libsnmp40:armhf", "version": "5.9.3+dfsg-2" },
+              { "name": "libsqlite3-0:armhf", "version": "3.40.1-2" },
+              { "name": "libss2:armhf", "version": "1.47.0-2" },
+              { "name": "libssh2-1:armhf", "version": "1.10.0-3+b1" },
+              { "name": "libssl3:armhf", "version": "3.0.11-1~deb12u2" },
+              { "name": "libstdc++6:armhf", "version": "12.2.0-14" },
+              { "name": "libsystemd0:armhf", "version": "252.17-1~deb12u1" },
+              { "name": "libtasn1-6:armhf", "version": "4.19.0-2" },
+              { "name": "libtinfo6:armhf", "version": "6.4-4" },
+              { "name": "libtirpc-common", "version": "1.3.3+ds-1" },
+              { "name": "libtirpc3:armhf", "version": "1.3.3+ds-1" },
+              { "name": "libudev1:armhf", "version": "252.17-1~deb12u1" },
+              { "name": "libunistring2:armhf", "version": "1.0-2" },
+              { "name": "libuuid1:armhf", "version": "2.38.1-5+b1" },
+              { "name": "libwrap0:armhf", "version": "7.6.q-32" },
+              { "name": "libxxhash0:armhf", "version": "0.8.1-1" },
+              { "name": "libzstd1:armhf", "version": "1.5.4+dfsg2-5" },
+              { "name": "lm-sensors", "version": "1:3.6.0-7.1" },
+              { "name": "login", "version": "1:4.13+dfsg1-1+b1" },
+              { "name": "logsave", "version": "1.47.0-2" },
+              { "name": "mawk", "version": "1.3.4.20200120-3.1" },
+              { "name": "mount", "version": "2.38.1-5+b1" },
+              { "name": "ncurses-base", "version": "6.4-4" },
+              { "name": "ncurses-bin", "version": "6.4-4" },
+              { "name": "netbase", "version": "6.4" },
+              { "name": "openssl", "version": "3.0.11-1~deb12u2" },
+              { "name": "passwd", "version": "1:4.13+dfsg1-1+b1" },
+              { "name": "pci.ids", "version": "0.0~2023.04.11-1" },
+              { "name": "perl", "version": "5.36.0-7" },
+              { "name": "perl-base", "version": "5.36.0-7" },
+              { "name": "perl-modules-5.36", "version": "5.36.0-7" },
+              { "name": "pinentry-curses", "version": "1.2.1-1" },
+              { "name": "procps", "version": "2:4.0.2-3" },
+              { "name": "readline-common", "version": "8.2-1.3" },
+              { "name": "sed", "version": "4.9-1" },
+              { "name": "snmp", "version": "5.9.3+dfsg-2" },
+              { "name": "sq", "version": "0.27.0-2+b1" },
+              { "name": "sysvinit-utils", "version": "3.06-4" },
+              { "name": "tar", "version": "1.34+dfsg-1.2" },
+              { "name": "telegraf", "version": "1.28.4-1" },
+              { "name": "tzdata", "version": "2023c-5" },
+              { "name": "usr-is-merged", "version": "35" },
+              { "name": "util-linux", "version": "2.38.1-5+b1" },
+              { "name": "util-linux-extra", "version": "2.38.1-5+b1" },
+              { "name": "wget", "version": "1.21.3-1+b1" },
+              { "name": "zlib1g:armhf", "version": "1:1.2.13.dfsg-1" }
+            ],
+            "_collected_time": "15/11/2023, 17:09:03",
+            "_received_time": "15/11/2023, 17:09:04"
+          },
+          "cpu": {
+            "usage_guest": 0,
+            "usage_guest_nice": 0,
+            "usage_idle": 31.837800999546655,
+            "usage_iowait": 0.3918673330304679,
+            "usage_irq": 0,
+            "usage_nice": 0,
+            "usage_softirq": 0.9129373012267905,
+            "usage_steal": 0,
+            "usage_system": 21.843764198093417,
+            "usage_user": 45.013630168108676,
+            "_collected_time": "15/11/2023, 17:09:00",
+            "_received_time": "15/11/2023, 17:09:04"
+          }
+        },
+        "_desiredProperties": {}
+      },
+      "physical": {
+        "_id": "physical",
+        "_properties": {},
+        "_desiredProperties": {}
+      },
+      "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+    }
+  }
+]

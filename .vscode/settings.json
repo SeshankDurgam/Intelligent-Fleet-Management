@@ -1,0 +1,11 @@
+{
+    "git.ignoreLimitWarning": true,
+    "vsmqtt.brokerProfiles": [
+        {
+            "name": "local-profile",
+            "host": "mqtt://broker.hivemq.com",
+            "port": 1883,
+            "clientId": "vsmqtt_client_ec1a"
+        }
+    ]
+}

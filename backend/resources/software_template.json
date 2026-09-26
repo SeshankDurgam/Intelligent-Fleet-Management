@@ -1,0 +1,15 @@
+{
+  "thingId": "no.sintef.sct.giot:REPLACE_WITH_UNIQUE_SOFTWARE_ID",
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "trust_agent_docker",
+    "image": "rdautov/trust-agent",
+    "version": "0.1",
+    "url": "https://eratblob.blob.core.windows.net/newcontainer/trust-agent-tellu-v01-arm32.tar.gz",
+    "localFile": "",
+    "remoteFile": "",
+    "developer": "rdautov",
+    "signature": "",
+    "cmd": "docker run --name trust-agent --restart always -v /var/run/docker.sock:/var/run/docker.sock:ro -v /var/lib/dpkg/:/var/lib/dpkg/ rdautov/trust-agent:0.1"
+  }
+}

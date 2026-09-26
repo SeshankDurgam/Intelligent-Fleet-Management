@@ -1,0 +1,16 @@
+{
+    "name": "ditto-submanger",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "dockerode": "^4.0.9",
+        "dotenv": "^17.2.3",
+        "mqtt": "^5.14.1",
+        "uuid": "^13.0.0"
+    },
+    "scripts": {
+        "start": "node ./src/submanager.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

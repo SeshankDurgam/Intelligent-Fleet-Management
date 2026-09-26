@@ -1,0 +1,114 @@
+{
+  "_thingId": "no.sintef.sct.giot:SINTEFPC8827",
+  "_policyId": "no.sintef.sct.giot:policy",
+  "_attributes": {
+    "type": "device",
+    "manufacturer": "Raspberry",
+    "architecture": "arm",
+    "os": { "name": "Raspberry Pi OS", "version": "5.15" }
+  },
+  "_features": {
+    "cyber": {
+      "_id": "cyber",
+      "_properties": {
+        "trustAgent": {
+          "container_image": "rdautov/trust-agent",
+          "container_status": "exited",
+          "container_version": "0.1"
+        },
+        "memory": {
+          "high_free": 0,
+          "high_total": 0,
+          "huge_page_size": 2097152,
+          "huge_pages_free": 0,
+          "huge_pages_total": 0,
+          "inactive": 5868318720,
+          "low_free": 0,
+          "low_total": 0,
+          "mapped": 499286016,
+          "page_tables": 20004864,
+          "shared": 13897728,
+          "slab": 218976256,
+          "sreclaimable": 135716864,
+          "sunreclaim": 83259392,
+          "swap_cached": 4583424,
+          "swap_free": 7493251072,
+          "swap_total": 7516192768,
+          "total": 26740953088,
+          "used": 4361752576,
+          "used_percent": 16.311133569720578,
+          "vmalloc_chunk": 0,
+          "vmalloc_total": 35184372087808,
+          "vmalloc_used": 47747072,
+          "write_back": 0,
+          "write_back_tmp": 0
+        },
+        "cpu": {
+          "usage_guest": 0,
+          "usage_guest_nice": 0,
+          "usage_idle": 98.11349887006416,
+          "usage_iowait": 0.012632820066532938,
+          "usage_irq": 0,
+          "usage_nice": 0,
+          "usage_softirq": 0.2610782813750061,
+          "usage_steal": 0,
+          "usage_system": 0.6512920567634334,
+          "usage_user": 0.9614979717305133
+        },
+        "network": {
+          "download": 89.6371,
+          "upload": 38.3804,
+          "latency": 43.085395
+        },
+        "internet_speed": {
+          "ip_address": "192.168.147.81",
+          "download": 138.8828,
+          "jitter": 2.73026,
+          "latency": 15.56886,
+          "location": "Trondheim",
+          "upload": 133.5055
+        },
+        "docker": {
+          "engine_host": "docker-desktop",
+          "server_version": "24.0.2"
+        },
+        "disk": {
+          "free": 247174475776,
+          "inodes_free": 16671432,
+          "inodes_total": 16777216,
+          "inodes_used": 105784,
+          "total": 269490393088,
+          "used": 8555245568,
+          "used_percent": 3.3454248192339517
+        }
+      },
+      "_desiredProperties": {
+        "trustAgent": {
+          "name": "no.sintef.sct.giot:test",
+          "status": "running",
+          "meta": {
+            "version": 0.1,
+            "type": "agent",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "mockupAgent",
+            "developer": "",
+            "signature": "",
+            "image": "rdautov/trust-agent",
+            "cmd": "",
+            "cwd": "",
+            "manufacturer": "Raspberry",
+            "architecture": "arm",
+            "os": { "name": "Raspberry Pi OS", "version": "5.15" }
+          }
+        }
+      }
+    },
+    "physical": {
+      "_id": "physical",
+      "_properties": {},
+      "_desiredProperties": {}
+    },
+    "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+  }
+}

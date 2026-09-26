@@ -1,0 +1,59 @@
+{
+  "name": "ditto-fleet-gui",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@types/prismjs": "^1.26.3",
+    "ace-builds": "^1.4.9",
+    "antd": "^3.21.1",
+    "axios": "^0.19.0",
+    "ditto-fleet-gui": "file:",
+    "fast-xml-parser": "^4.3.2",
+    "js-yaml": "^3.14.0",
+    "json2yaml": "^1.1.0",
+    "jsoneditor-react": "^3.1.2",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.1.1",
+    "prismjs": "^1.29.0",
+    "react": "^16.14.0",
+    "react-ace": "^9.1.4",
+    "react-dom": "^16.14.0",
+    "react-json-view": "^1.19.1",
+    "react-scripts": "^3.4.3",
+    "react-simple-code-editor": "^0.11.0",
+    "read-yaml": "^1.1.0",
+    "sintef-ditto-javascript-client-dom": "0.0.1",
+    "traverse": "^0.6.6",
+    "typescript": "^3.5.3",
+    "winston": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5001/",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@types/node": "^18.14.2",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11"
+  }
+}

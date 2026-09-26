@@ -1,0 +1,40 @@
+{
+  "thingId": "no.sintef.sct.giot:SINTEF9977",
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "device",
+    "arch": "amd64",
+    "host": "",
+    "info": "Docker Engine 20.10.17 on amd64 with linux, API 1.41"
+  },
+  "features": {
+    "execEnv": {
+      "properties": {
+        "name": "docker_engine",
+        "port": "2375"
+      }
+    },
+    "agent": {
+      "properties": {
+        "type": "software",
+        "url": "",
+        "localFile": "",
+        "remoteFile": "",
+        "developer": "",
+        "signature": "",
+        "image": "",
+        "cmd": "",
+        "cwd": "",
+        "status": "stopped"
+      }
+    },
+    "meta": {
+      "properties": {
+        "latestState": "connected",
+        "lastOperation": "info",
+        "lastTried": "2022-09-12T13:45:47.122Z",
+        "lastSeen": "2022-09-12T13:45:47.251Z"
+      }
+    }
+  }
+}

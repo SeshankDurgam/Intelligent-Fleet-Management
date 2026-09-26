@@ -1,0 +1,15 @@
+{
+  "thingId": "no.sintef.sct.giot:REPLACE_WITH_UNIQUE_SOFTWARE_ID",
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "trust_agent_ssh",
+    "version": "0.1",
+    "url": "https://eratblob.blob.core.windows.net/newcontainer/trust-agent-ssh.zip",
+    "localFile": "trust-agent-ssh.zip",
+    "remoteFile": "trust-agent-ssh.zip",
+    "developer": "songhui",
+    "signature": "",
+    "cmd": "./trust-agent.sh",
+    "cwd": "/home/pi"
+  }
+}

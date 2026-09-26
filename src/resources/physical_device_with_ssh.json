@@ -1,0 +1,97 @@
+{
+  "_thingId": "no.sintef.sct.giot:raspberrypi",
+  "_policyId": "no.sintef.sct.giot:policy",
+  "_attributes": {
+    "type": "physical_device",
+    "manufacturer": "Raspberry",
+    "architecture": "linux/arm/v7",
+    "ip_address": "192.168.68.76"
+  },
+  "_features": {
+    "cyber": {
+      "_id": "cyber",
+      "_properties": {
+        "internet_speed": {
+          "ip_address": "192.168.68.76",
+          "download": 34.8364,
+          "jitter": 4.759126,
+          "latency": 20.85758,
+          "location": "Oslo",
+          "upload": 34.3692
+        },
+        "memory": {
+          "high_free": 0,
+          "high_total": 0,
+          "huge_page_size": 0,
+          "huge_pages_free": 0,
+          "huge_pages_total": 0,
+          "inactive": 480497664,
+          "low_free": 0,
+          "low_total": 0,
+          "mapped": 197988352,
+          "page_tables": 1896448,
+          "shared": 737280,
+          "slab": 69562368,
+          "sreclaimable": 47202304,
+          "sunreclaim": 22360064,
+          "swap_cached": 4096,
+          "swap_free": 103280640,
+          "swap_total": 104853504,
+          "total": 966750208,
+          "used": 170520576,
+          "used_percent": 17.638535227499016,
+          "vmalloc_chunk": 0,
+          "vmalloc_total": 1140850688,
+          "vmalloc_used": 8314880,
+          "write_back": 0,
+          "write_back_tmp": 0
+        },
+        "disk": {
+          "free": 27478188032,
+          "inodes_free": 1819455,
+          "inodes_total": 1880448,
+          "inodes_used": 60993,
+          "total": 31120875520,
+          "used": 2345316352,
+          "used_percent": 7.8639864779212125
+        },
+        "docker": { "engine_host": "raspberrypi", "server_version": "24.0.7" },
+        "cpu": {
+          "usage_guest": 0,
+          "usage_guest_nice": 0,
+          "usage_idle": 99.70388288778294,
+          "usage_iowait": 0.012511990657716182,
+          "usage_irq": 0,
+          "usage_nice": 0,
+          "usage_softirq": 0,
+          "usage_steal": 0,
+          "usage_system": 0.06673061684118459,
+          "usage_user": 0.21687450473373135
+        }
+      },
+      "_desiredProperties": {
+        "trustAgent": {
+          "process_name": "trust-agent.sh",
+          "process_status": "running",
+          "ta_meta": {
+            "type": "trust_agent_ssh",
+            "version": "3.0.1",
+            "url": "",
+            "localFile": "",
+            "remoteFile": "",
+            "developer": "",
+            "signature": "",
+            "cmd": "",
+            "cwd": ""
+          }
+        }
+      }
+    },
+    "physical": {
+      "_id": "physical",
+      "_properties": { "temp": {} },
+      "_desiredProperties": {}
+    },
+    "social": { "_id": "social", "_properties": {}, "_desiredProperties": {} }
+  }
+}

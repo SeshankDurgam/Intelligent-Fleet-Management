@@ -1,0 +1,152 @@
+{
+    "policyId": "no.sintef.sct.giot:policy",
+    "attributes": {
+        "type": "virtual_device",
+        "manufacturer": "Raspberry",
+        "platform": "linux/arm/v7",
+        "ipAddress": "",
+        "system_description": "Debian GNU/Linux 11 (bullseye)",
+        "system_version": "11",
+        "system_name": "Debian",
+        "proxiedBy": {
+            "thingId": "",
+            "ipAddress": ""
+        },
+        "proxyFor": {
+            "thingId": "",
+            "ipAddress": ""
+        },
+        "ip_address": "192.168.32.5"
+    },
+    "features": {
+        "cyber": {
+            "id": "cyber",
+            "properties": {
+                "connectedDevices": [
+                    {
+                        "deviceId": "no.sintef.sct.giot:kardinero_ecg_master_001",
+                        "connectionType": "USB",
+                        "macAddress": "00-B0-D0-63-C2-26",
+                        "enrolled": true,
+                        "paired": true,
+                        "bonded": true,
+                        "lastSeen": "2025-05-07T08:00:00Z"
+                    },
+                    {
+                        "deviceId": "no.sintef.sct.giot:sensio_care__001",
+                        "connectionType": "Bluetooth",
+                        "macAddress": "00-B0-D0-63-C2-27",
+                        "enrolled": true,
+                        "paired": true,
+                        "bonded": true,
+                        "lastSeen": "2025-05-06T22:45:00Z"
+                    },
+                    {
+                        "deviceId": "no.sintef.sct.giot:axis_q9307_dome_camera_001",
+                        "connectionType": "Ethernet",
+                        "macAddress": "00-B0-D0-63-C2-28",
+                        "enrolled": true,
+                        "paired": true,
+                        "bonded": true,
+                        "lastSeen": "2025-05-06T22:45:00Z"
+                    }
+                ],
+                "disk": {
+                    "free": 22399033344,
+                    "inodes_free": 1742217,
+                    "inodes_total": 1925760,
+                    "inodes_used": 183543,
+                    "total": 31069143040,
+                    "used": 7347109888,
+                    "used_percent": 24.699369698778973,
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                },
+                "memory": {
+                    "high_free": 0,
+                    "high_total": 0,
+                    "huge_page_size": 0,
+                    "huge_pages_free": 0,
+                    "huge_pages_total": 0,
+                    "inactive": 55545856,
+                    "low_free": 0,
+                    "low_total": 0,
+                    "mapped": 321257472,
+                    "page_tables": 4530176,
+                    "shared": 4866048,
+                    "slab": 65302528,
+                    "sreclaimable": 37060608,
+                    "sunreclaim": 28241920,
+                    "swap_cached": 0,
+                    "swap_free": 104853504,
+                    "swap_total": 104853504,
+                    "total": 953802752,
+                    "used": 262717440,
+                    "used_percent": 27.544210734254623,
+                    "vmalloc_chunk": 0,
+                    "vmalloc_total": 265885319168,
+                    "vmalloc_used": 13508608,
+                    "write_back": 0,
+                    "write_back_tmp": 0,
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                },
+                "cpu": {
+                    "usage_guest": 0,
+                    "usage_guest_nice": 0,
+                    "usage_idle": 99.36582399443891,
+                    "usage_iowait": 0.013031013812871778,
+                    "usage_irq": 0,
+                    "usage_nice": 0,
+                    "usage_softirq": 0.1172791243158676,
+                    "usage_steal": 0,
+                    "usage_system": 0.37355572930240455,
+                    "usage_user": 0.13031013812874864,
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                },
+                "trustAgent": {
+                    "container_image": "rdautov/trust-agent",
+                    "container_status": "exited",
+                    "container_version": "0.1",
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                },
+                "docker": {
+                    "engine_host": "sintef-rpi-001",
+                    "server_version": "28.5.1",
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                },
+                "internet_speed": {
+                    "ip_address": "192.168.32.5",
+                    "download": 38.30863203253323,
+                    "jitter": 3.310788,
+                    "latency": 26.051303,
+                    "location": "Oslo",
+                    "upload": 28.7787544791081,
+                    "_collected_time": "21/11/2025, 14:00:46",
+                    "_received_time": "21/11/2025, 14:00:54"
+                }
+            },
+            "desiredProperties": {}
+        },
+        "physical": {
+            "id": "physical",
+            "properties": {
+                "temp": {
+                    "sensor": "cpu_thermal",
+                    "temp": 39.704,
+                    "_collected_time": "21/11/2025, 14:25:00",
+                    "_received_time": "21/11/2025, 14:25:04"
+                }
+            },
+            "desiredProperties": {}
+        },
+        "social": {
+            "id": "social",
+            "properties": {},
+            "desiredProperties": {}
+        }
+    }
+}

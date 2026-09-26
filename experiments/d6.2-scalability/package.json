@@ -1,0 +1,13 @@
+{
+    "name": "d62-scalability-experiments",
+    "version": "0.0.1",
+    "private": true,
+    "type": "module",
+    "description": "Frozen submanager variants and twin-generation scripts used for the D6.2 scalability experiments",
+    "dependencies": {
+        "dockerode": "^4.0.9",
+        "dotenv": "^17.2.3",
+        "mqtt": "^5.14.1",
+        "uuid": "^13.0.0"
+    }
+}

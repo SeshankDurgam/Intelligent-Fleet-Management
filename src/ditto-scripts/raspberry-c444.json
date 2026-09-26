@@ -1,0 +1,19 @@
+{
+    "policyId": "no.sintef.sct.giot:policy",
+    "attributes": {
+        "manufacturer": "Raspberry",
+        "architecture": "arm",
+        "os": { 
+            "name": "Raspberry Pi OS",
+            "version": "5.15"
+        }        
+    },
+    "features": {
+        "trustAgent": {
+            "properties": {
+                "version": "1.0.0",
+                "status": "running"
+            }
+        }
+    }
+}

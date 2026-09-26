@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mspl>
+  <name>mspl_monitoring_policy_edge_gateway</name>
+  <threatid>contextual-monitoring</threatid>
+  <type>monitoring-mspl-type</type>
+  <configuration>
+    <capability>monitoring</capability>
+    <monitoring-configuration>
+      <name>monitoring_policy_default_plus_dpkg</name>
+      <monitoring-rule>
+        <name>rule_collect_metrics</name>
+        <external-data>
+          <priority>200</priority>
+        </external-data>
+        <monitoring-action>
+          <collect-metrics>
+            <metric>cpu-utilization</metric>
+            <metric>ram-utilization</metric>
+            <metric>storage-utilization</metric>
+            <metric>cpu-temperature</metric>
+            <metric>docker-engine-status</metric>
+            <metric>docker-container-status</metric>
+            <metric>network-connectivity-status</metric>
+            <metric>installed-packages-dpkg</metric> <!-- New metric -->
+          </collect-metrics>
+        </monitoring-action>
+        <monitoring-condition>
+          <target-device>
+            <device-id>edge-gateway-001</device-id>
+          </target-device>
+        </monitoring-condition>
+      </monitoring-rule>
+    </monitoring-configuration>
+  </configuration>
+</mspl>

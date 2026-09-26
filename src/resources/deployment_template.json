@@ -1,0 +1,9 @@
+{
+  "thingId": "no.sintef.sct.giot:",
+  "policyId": "no.sintef.sct.giot:policy",
+  "attributes": {
+    "type": "deployment",
+    "trust_agent_id": "",
+    "rql_expression": ""   
+  }
+}
